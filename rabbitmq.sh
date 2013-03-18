@@ -8,3 +8,13 @@ wget http://www.rabbitmq.com/rabbitmq-signing-key-public.asc
 sudo apt-key add rabbitmq-signing-key-public.asc
 sudo apt-get update
 sudo apt-get install rabbitmq-server
+
+
+sudo rabbitmqctl add_vhost appchannel
+sudo rabbitmqctl list_vhosts
+sudo rabbitmqctl add_user appchannel P@55word
+sudo rabbitmqctl list_users
+sudo rabbitmqctl set_permissions -p appchannel appchannel ".*" ".*" ".*"
+sudo rabbitmqctl list_permissions -p appchannel
+
+
