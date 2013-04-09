@@ -1,0 +1,11 @@
+deb http://10.2.101.97/ubuntu precise main restricted
+deb http://10.2.101.97/ubuntu precise-updates main restricted
+deb http://10.2.101.97/ubuntu precise universe
+deb http://10.2.101.97/ubuntu precise-updates universe
+deb http://10.2.101.97/ubuntu precise multiverse
+deb http://10.2.101.97/ubuntu precise-updates multiverse
+deb http://10.2.101.97/ubuntu precise-backports main restricted universe multiverse
+deb http://10.2.101.97/ubuntu precise-security main restricted
+deb http://10.2.101.97/ubuntu precise-security universe
+deb http://10.2.101.97/ubuntu precise-security multiverse
+
