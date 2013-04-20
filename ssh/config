@@ -1,0 +1,74 @@
+Host 178-backup
+     user yhyan
+     Hostname 42.121.128.124
+
+Host 178
+     User yhyan
+     Hostname 42.121.124.134
+
+Host 198
+     User yhyan
+     Hostname 42.121.115.113
+
+Host cache-cn-redis
+     User yhyan
+     Hostname 119.254.88.226
+
+Host cache-cn-sql
+     User yhyan
+     Hostname 119.254.88.227
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Host linuxtest
+     User ubuntu
+     Hostname 10.2.35.44
+     # IdentityFile ~/backups/.ssh/id_dsa
+
+Host dbtest
+     User ubuntu
+     Hostname 10.2.25.35
+
+Host webtest
+     User ubuntu
+     Hostname 10.2.25.34
+
+Host lxr
+     User ubuntu
+     Hostname 10.2.25.33
+
+Host website
+     User ubuntu
+     Hostname 10.2.25.32
+
+Host chefmaster
+     User ubuntu
+     Hostname 10.2.25.39
+
+Host hmaster
+     User ubuntu
+     Hostname 10.2.25.40
+
+Host hslave0
+     User ubuntu
+     Hostname 10.2.25.41
+
+Host hslave1
+     User ubuntu
+     Hostname 10.2.25.42
+
+Host hslave2
+     User ubuntu
+     Hostname 10.2.25.43
+
