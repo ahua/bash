@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+function get_my_ip()
+{
+    nic=`mii-tool | cut -d ":" -f 1-1`
+    my_ip=`ifconfig $nic | grep "inet addr" | cut -d ":" -f 2-2 | cut -d " " -f 1-1`
+    echo $my_ip
+}
+
+
