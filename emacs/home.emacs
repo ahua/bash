@@ -1,3 +1,4 @@
+(setq column-number-mode t)
 (setq make-backup-files nil)
 
 (global-linum-mode 1);
@@ -17,4 +18,6 @@
 (global-set-key [f1] 'hs-toggle-hiding)
 (global-set-key [f2] 'hs-hide-all)
 (global-set-key [f3] 'hs-show-all)
+
+(define-coding-system-alias 'UTF-8 'utf-8)
 
