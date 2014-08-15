@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 
+sudo apt-get install redis-server
 sudo apt-get install -y ipython python-pip 
 sudo apt-get install -y build-essential tree terminator emacs23-nox vim
 sudo apt-get install python-dev
