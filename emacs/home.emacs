@@ -32,7 +32,7 @@
 (setq x-select-enable-clipboard t)
 
 (global-linum-mode 1);
-(setq linum-format "%3d \u2502")
+(setq linum-format "%4d \u2502")
 
 (add-to-list 'load-path "~/.emacs.d/")
 (require 'auto-complete-config)
@@ -44,6 +44,9 @@
 (add-hook 'java-mode-hook 'hs-minor-mode)
 (add-hook 'python-mode-hook 'hs-minor-mode)
 (add-hook 'ruby-mode-hook 'hs-minor-mode)
+(add-hook 'javascript-mode-hook 'hs-minor-mode)
+(add-hook 'js-mode-hook 'hs-minor-mode)
+
 
 (global-set-key [f1] 'hs-toggle-hiding)
 (global-set-key [f2] 'hs-hide-all)
